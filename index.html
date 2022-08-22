@@ -22,40 +22,41 @@
   <!--Sidebar-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 pl-2">
+        <div class="card" style="width: 22rem">
         <div class="card body">
           <h6>Search for City</h6>
           <form class="form-inline">
             <div class="form-group">
               <input type="text" class="form-control" id="input-city">
             </div>
-            <button class="search button" type="submit" class="fas fa-search"></i></button>
+            <button class="searchButton" type="submit" class="fas fa-search"></i></button>
           </form>
         </div>
       </div>
-
       <div>
-        <ul id="list of cities" class="list"></ul>
+        <ul id="list-of-cities" class="list"></ul>
       </div>
+      <!--Current Weather-->
       <div class="col-md-9">
-        <div id="current weather" class="card">
-          <div class="card body">
-            <div id="city date icon">
-              <span id="name of city"></span>
-              <span id="current weather icon"></span>
+        <div id="current-weather" class="card">
+          <div class="card-body">
+            <div id="city-date-icon">
+              <span id="name-of-city"></span>
+              <span id="current-weather-icon"></span>
             </div>
             <p class="text-in-card" id="current-temp"></p>
             <p class="text-in-card" id="current-humidity"></p>
             <p class="text-in-card" id="current-windspeed"></p>
             <p class="text-in-card" id="current-uvindex"></p>
           </div>
-
-          <div>
-            <div id="row">
+          <!--5 day forcast-->
+          <div class="row">
+            <div id="weather-forecast" class="col-md-9">
               <h5>5-Day Forecast:</h5>
-              <div id="forecast cards">
-                <div class="card forecast">
-                  <div id="forecast1" class="card body">
+              <div id="forecast-cards">
+                <div class="card-forecast">
+                  <div id="forecast1" class="card-body">
                     <span class="weather icon1"></span>
                     <p class="text-in-card" class="temp1"></p>
                     <p class="text-in-card" class="humidity1"></p>
