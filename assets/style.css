@@ -49,7 +49,7 @@ h4 {
     flex-direction: row;
     justify-content: center/space-between;   
 }
-// Overriding bootstrap to change background colors of 5 day cards, search button
+// Overriding bootstrap to change background colors of 5 day cards, search button and width of text entry box
 .forecast {
     margin: 10px;
     background-color: #50b8e7 !important;
