@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #edf7fc;
 }
-// Header with background img
+/* Header with background img */
 .heading {
   background-color: #50b8e7;
   background-image: url(https://www.goodfreephotos.com/cache/sky-and-clouds/sky-within-the-clouds.jpg);
@@ -13,11 +13,11 @@ body {
   padding: 10px;
   height: 180px;
 }
-// City name input
+/*  City name input */
 input {
   width: 75%;
 }
-// Settings for previous cities searched for
+/* Settings for previous cities searched for */
 #city-list {
   width: 22rem;
   text-align: center;
@@ -49,7 +49,7 @@ h4 {
     flex-direction: row;
     justify-content: center/space-between;   
 }
-// Overriding bootstrap to change background colors of 5 day cards, search button and width of text entry box
+/* Overriding bootstrap to change background colors of 5 day cards, search button and width of text entry box */
 .forecast {
     margin: 10px;
     background-color: #50b8e7 !important;
