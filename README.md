@@ -30,6 +30,6 @@ THEN I am again presented with current and future conditions for that city
 
 
 ## Links
-Github Repo: 
+Github Repo: https://github.com/Dhabi966/Jimsweatherdashboard
 
 Github Pages: 
