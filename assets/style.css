@@ -1,11 +1,64 @@
 body {
-  font-family: 'calibri, open-sans, sans-serif';
+  font-family: "Open Sans", sans-serif;
+  background-color: #edf7fc;
 }
 
-.header {
-  background-color: skyblue;
+.heading {
+  background-color: #50b8e7;
+  background-image: url(https://www.goodfreephotos.com/cache/sky-and-clouds/sky-within-the-clouds.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
   text-align: center;
-  color: black;
-  border-radius: 0;
-  height: 150px;
+  padding: 10px;
+  height: 180px;
+}
+
+input {
+  width: 75%;
+}
+
+#city-list {
+  width: 22rem;
+  text-align: center;
+
+}
+.list-group-item {
+    margin-top: 10px;
+}
+
+#city-date-icon,
+#city-name,
+#current-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center/space-around/space-between;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+    margin: 10px;
+    font-weight: bold;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center/space-between;   
+}
+
+.forecast {
+    margin: 10px;
+    background-color: #50b8e7 !important;
+    color:white;
+
+}
+.btn-primary {
+    background-color: #84cdee !important;
+}
+.form-control {
+    width: 250px !important;
 }
