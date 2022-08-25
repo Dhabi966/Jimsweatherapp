@@ -29,7 +29,7 @@ function createCityList(citySearchList) {
     $("#city-list").append(cityListEntry);
   }
 }
-
+// Linking API's for current weather and 5 day forecast
 function populateCityWeather(city, citySearchList) {
   createCityList(citySearchList);
 
@@ -50,7 +50,7 @@ function populateCityWeather(city, citySearchList) {
       // Log the queryURL
       console.log(queryURL);
 
-      // Log the resulting object
+      // Logging the result
       console.log(weather);
 
       var nowMoment = moment();
