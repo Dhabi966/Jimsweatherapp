@@ -1,4 +1,4 @@
-# Jimsweatherdashboard
+# Jim's Weather Dashboard
 
 ## User Story
 
