@@ -2,7 +2,7 @@
 
 ## Application Description
 
-This is a basic weather dashboard that provides current weather conditions and 5-day forecasts for locations around the world.  Previous searches are located on the sidebar so that the user does not have to re-type the city name. 
+This is a basic weather dashboard that provides current weather conditions that include temperature, humidity and wind speed along with 5-day forecasts for locations around the world.  Previous searches are located on the sidebar so that the user does not have to re-type the city name. 
 
 
 ## User Story
