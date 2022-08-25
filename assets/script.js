@@ -12,7 +12,7 @@ setInterval(renderClock, 1000);
 
 function createCityList(citySearchList) {
   $("#city-list").empty();
-
+// Returning an array from strings
   var keys = Object.keys(citySearchList);
   for (var i = 0; i < keys.length; i++) {
     var cityListEntry = $("<button>");
@@ -45,12 +45,12 @@ function populateCityWeather(city, citySearchList) {
     url: queryURL,
     method: "GET"
   })
-    // Store all of the retrieved data inside of "weather"
+    // Store all retrieved data inside of "weather"
     .then(function (weather) {
       // Log the queryURL
       console.log(queryURL);
 
-      // Logging the result
+      // Log the result
       console.log(weather);
 
       var nowMoment = moment();
@@ -121,7 +121,7 @@ function populateCityWeather(city, citySearchList) {
             $("#forecast-date" + forecastPosition).append(
               forecastDate.text(nowMoment.add(1, "days").format("M/D/YYYY"))
             );
-            //Forecast icon
+            //  Forecast icons
             var forecastIcon = $("<img>");
             forecastIcon.attr(
               "src",
