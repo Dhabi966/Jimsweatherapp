@@ -31,13 +31,16 @@ THEN I am again presented with current and future conditions for that city
 ```
 ## Resources
 google.com
+`
 stackoverflow.com
-codegrepper.com
+`
+codegrepper.com`
+
 goodfreephotos.com
 levelup.gitconnected.com
 momentjs.com
 api.openweathermap.org
-www.w3schools.com
+w3schools.com
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/108851005/186574743-3a19112b-13c7-4c9f-908b-737d67d9901c.png)
